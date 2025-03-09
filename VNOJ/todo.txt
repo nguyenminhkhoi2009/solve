@@ -1,2 +1,6 @@
 problems - qvsick
 contests - hue_v2_2324
+contests - olp_ct24
+contests - olp_kc24
+contests - olp_sc24
+contests - nd_thpt_2223

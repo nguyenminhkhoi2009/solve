@@ -52,5 +52,5 @@ int main() {
 /*
 Problem: http://chuyenminhkhai.ddns.net/problem/tohop_rook1
 Vietjack: https://vietjack.com/toan-10-kn/ly-thuyet-bai-23-quy-tac-dem.jsp
-Github: https://docs.google.com/viewer?url=https://raw.githubusercontent.com/nguyenminhkhoi2009/solve/main/Documents/L%C3%BD%20thuy%E1%BA%BFt%20b%C3%A0i%20to%C3%A1n%20%C4%91%E1%BA%BFm_HS.pdf
+Document: https://docs.google.com/viewer?url=https://raw.githubusercontent.com/nguyenminhkhoi2009/solve/main/Documents/L%C3%BD%20thuy%E1%BA%BFt%20b%C3%A0i%20to%C3%A1n%20%C4%91%E1%BA%BFm_HS.pdf
 */

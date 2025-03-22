@@ -52,7 +52,10 @@ int main(){
 }
 
 /*
-Problem: https://oj.vnoi.info/problem/fc108_balloon
-Contest: https://docs.google.com/viewer?url=https://raw.githubusercontent.com/nguyenminhkhoi2009/solve/main/Nonamed/20250322/STOI_test03.pdf
-Document: https://docs.google.com/viewer?url=https://raw.githubusercontent.com/nguyenminhkhoi2009/solve/main/Documents/L%C3%BD%20thuy%E1%BA%BFt%20b%C3%A0i%20to%C3%A1n%20%C4%91%E1%BA%BFm_HS.pdf
+Credit:
+    Problem: https://oj.vnoi.info/problem/fc108_balloon
+    Contest: https://docs.google.com/viewer?url=https://raw.githubusercontent.com/nguyenminhkhoi2009/solve/main/Nonamed/20250322/STOI_test03.pdf
+    Document: https://docs.google.com/viewer?url=https://raw.githubusercontent.com/nguyenminhkhoi2009/solve/main/Documents/L%C3%BD%20thuy%E1%BA%BFt%20b%C3%A0i%20to%C3%A1n%20%C4%91%E1%BA%BFm_HS.pdf
+    Viblo: https://viblo.asia/p/phep-nhan-an-do-thuat-toan-binh-phuong-va-nhan-gDVK2dmrlLj
+    Recipe: (sum * (c[i] - i)) % mod (using Indian Multiplication)
 */

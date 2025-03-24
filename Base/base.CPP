@@ -1,27 +1,40 @@
 #include <bits/stdc++.h>
-#define ll long long
+
+// Typedef
+typedef long long ll;
+typedef unsigned long long ull;
+typedef double db;
+typedef long double ld;
+typedef pair<ll,ll> ii;
+typedef vector<ll> vi;
+typedef vector<ii> vii;
+
+// Macro
 #define task ""
-#define rep(a,b,c) for (ll a = b; a <= c; a++)
-#define rev(a,c,b) for (ll a = c; a >= b; a++)
+#define rep(i,a,b) for (ll i = (a); i <= (b); ++i)
+#define rev(i,a,b) for (ll i = (a); i >= (b); --i)
 #define endl '\n'
+
 using namespace std;
 
+void readData() {
+    if (fopen((task".INP").c_str(), "r")) {
+        freopen((task".INP").c_str(), "r", stdin);
+        freopen((task".OUT").c_str(), "w", stdout);
+    }
+    // Do something
+}
 
+void Solve() {
+    // Do something
+}
 
-void readData(){
+int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr); cout.tie(nullptr);
-    freopen(task".INP", "r", stdin);
-    freopen(task".OUT", "w", stdout);
-
-}
-
-void Solve(){
     
-}
-
-int main(){
     readData();
     Solve();
+    
     return 0;
 }

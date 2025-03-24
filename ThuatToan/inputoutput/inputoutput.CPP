@@ -1,75 +1,70 @@
 #include <iostream>
 #include <cstdio>
-#include <fstream>
 #include <ctime>
 
 using namespace std;
 
+// Timing functions
 clock_t start_time;
 
-void time_start() {
+void start_timer() {
     start_time = clock();
 }
 
-void time_end() {
+void stop_timer() {
     start_time = clock() - start_time;
 }
 
-void time_elapsed() {
-    double time_taken = ((double)start_time) / CLOCKS_PER_SEC;
-    cout << time_taken << " seconds";
-}
-
-int ReadInt() {
-    int x;
-    scanf("%d", &x);
-    return x;
+void print_elapsed() {
+    double elapsed = ((double)start_time)/CLOCKS_PER_SEC;
+    cout << elapsed << " seconds\n";
 }
 
 int main() {
-    // 1. Fast I/O with freopen
+    // 1. C scanf (baseline)
     freopen("input.txt", "r", stdin);
-    time_start();
+    start_timer();
     {
         int v;
-        for (int i = 0; i < 10000000; i++) {
-            v = ReadInt();
+        while (fscanf(stdin, "%d", &v) != EOF) {
+            // Process data
         }
     }
-    time_end();
-    cout << "Fast I/O with freopen: ";
-    time_elapsed();
-    cout << endl;
-    fclose(stdin);
-
-    // 2. C scanf with freopen
-    freopen("input.txt", "r", stdin);
-    time_start();
-    {
-        int v;
-        while (scanf("%d", &v) != EOF) {
-            // Read data
-        }
-    }
-    time_end();
+    stop_timer();
     cout << "C scanf: ";
-    time_elapsed();
-    cout << endl;
+    print_elapsed();
     fclose(stdin);
 
-    // 3. C++ input stream with freopen
+    // 2. C++ Standard (sync with stdio)
+    ios_base::sync_with_stdio(true);
+    cin.tie(nullptr);
     freopen("input.txt", "r", stdin);
-    time_start();
+    start_timer();
     {
         int v;
         while (cin >> v) {
-            // Read data
+            // Process data
         }
     }
-    time_end();
-    cout << "C++ input stream: ";
-    time_elapsed();
-    cout << endl;
+    stop_timer();
+    cout << "C++ Standard: ";
+    print_elapsed();
+    fclose(stdin);
+
+    // 3. C++ Fast IO (unsync stdio)
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    freopen("input.txt", "r", stdin);
+    start_timer();
+    {
+        int v;
+        while (cin >> v) {
+            // Process data
+        }
+    }
+    stop_timer();
+    cout << "C++ Fast IO: ";
+    print_elapsed();
 
     return 0;
 }

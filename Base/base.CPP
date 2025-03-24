@@ -18,15 +18,16 @@ typedef vector<ii> vii;
 using namespace std;
 
 void readData() {
-    if (fopen((task".INP").c_str(), "r")) {
-        freopen((task".INP").c_str(), "r", stdin);
-        freopen((task".OUT").c_str(), "w", stdout);
-    }
+    freopen(task".INP", "r", stdin);
+    freopen(task".OUT", "w", stdout);
+
     // Do something
+
 }
 
 void Solve() {
     // Do something
+
 }
 
 int main() {

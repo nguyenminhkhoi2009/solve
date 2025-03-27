@@ -14,7 +14,6 @@ vector <vector<bool>> visited;
 ll dx[] = {-1, -1, -1, 0, 0, 1, 1, 1};
 ll dy[] = {-1, 0, 1, -1, 1, -1, 0, 1};
 
-
 void readData() {
     //freopen(task".INP", "r", stdin);
     //freopen(task".OUT", "w", stdout);

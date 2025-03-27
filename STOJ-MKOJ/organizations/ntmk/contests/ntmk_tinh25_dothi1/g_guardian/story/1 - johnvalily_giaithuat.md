@@ -1,12 +1,12 @@
-**John và Lily: Cuộc Phiêu Lưu Toán Học Giữa Những Ngọn Đồi (Phiên Bản Đầy Đủ Thuật Toán)**
+# **John và Lily: Cuộc Phiêu Lưu Toán Học Giữa Những Ngọn Đồi (Phiên Bản Đầy Đủ Thuật Toán)**
 
-**Phần 1: Câu Chuyện**
+## **Phần 1: Câu Chuyện**
 
 John đứng trước hiên nhà nhìn ra cánh đồng bát ngát với những ngọn đồi nhấp nhô. Những vụ mất trộm gia súc gần đây khiến anh quyết định đặt lính canh trên các đỉnh đồi. Nhưng làm sao xác định được đâu là đỉnh đồi trong mê cung địa hình phức tạp này?
 
 May mắn thay, cô bé Lily 10 tuổi - thiên tài toán học nhí - xuất hiện với tấm bản đồ kỳ lạ ghi các con số độ cao. "Chú John ơi, cháu sẽ giúp chú giải mã bí ẩn này bằng thuật toán thần kỳ!" - Lily hào hứng nói.
 
-**Phần 2: Giải Thuật Bằng Ngôn Ngữ Đời Thường**
+## **Phần 2: Giải Thuật Bằng Ngôn Ngữ Đời Thường**
 
 1. **Chuẩn Bị Dụng Cụ**:
    - Tấm bản đồ (ma trận N x M)
@@ -24,7 +24,7 @@ May mắn thay, cô bé Lily 10 tuổi - thiên tài toán học nhí - xuất h
    - "Đi thăm - Đánh dấu - Kiểm tra - Đếm"
    - Giống như trò chơi truy tìm kho báu
 
-**Phần 3: Triển Khai Code C++**
+## **Phần 3: Triển Khai Code C++**
 
 ```cpp
 #include <bits/stdc++.h>
@@ -74,7 +74,7 @@ int main() {
 }
 ```
 
-**Phần 4: Giải Thích Code Bằng Câu Chuyện**
+## **Phần 4: Giải Thích Code Bằng Câu Chuyện**
 
 1. **Hàm dfs()**:
    - Giống như Lily dẫn John đi thăm từng ô

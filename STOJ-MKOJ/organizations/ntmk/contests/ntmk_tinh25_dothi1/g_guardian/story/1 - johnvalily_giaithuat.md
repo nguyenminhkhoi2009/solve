@@ -1,4 +1,4 @@
-# **John và Lily: Cuộc Phiêu Lưu Toán Học Giữa Những Ngọn Đồi (Chi tiết)**
+# **John và Lily: Cuộc Phiêu Lưu Toán Học Giữa Những Ngọn Đồi (Chi Tiết)**
 
 ## **Phần 1: Câu Chuyện**
 

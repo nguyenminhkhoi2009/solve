@@ -67,4 +67,5 @@ Sau khi "quét sạch" ma trận, Nam hoàn thành báo cáo:
 Từ một anh chàng genz lười biếng, Nam đã trở thành "anh hùng giải thuật" – kết nối thế giới, cân bằng sinh thái, và cứu rỗi đại dương. Câu chuyện của anh chứng minh: **"Dù bạn là ai, chỉ cần có BFS (Brain-Flexibility-Skill), mọi vấn đề đều có thể 'duyệt' qua!"**  
 
 *(P/S: Nếu bạn thấy đời mình đang loang lổ như ma trận dầu, hãy nhớ đến Nam và... chạy BFS ngay đi!)*
+
 ***Nguồn: Sưu tầm***
